@@ -1,11 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;700&display=swap');
+
 :root {
+    --theme__font: 'Shantell Sans', cursive;
     --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 #space__multipage {
+    font-family: var(--theme__font);
     background-image: url(/assets/img/home/background-home-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    header {
+        margin-bottom: 300px;
+        .navbar {
+            .navbar-collapse {
+                .navbar-nav {
+                    backdrop-filter: blur(20px);
+                    padding: 20px 200px;
+                    .nav-item {
+                        margin: 0px 15px;
+                        a {
+                            color: var(--white);
+                            text-transform: uppercase;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main {
+        #main__space__explore {
+            .mse__space {
+                display: flex;
+                flex-direction: column;
+                line-height: 1;
+                .mse__space__headline {
+                    text-transform: uppercase;
+                    color: var(--white);
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                }
+                .mse__space__title {
+                    text-transform: uppercase;
+                    color: var(--white);
+                    font-size: 150px;
+                    margin-bottom: 30px;
+                }
+                .mse__space__text {
+                    color: var(--white);
+                    font-size: 16px;
+                    line-height: normal;
+                }
+            }
+            .mse__explore {
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+                .mse__explore__content {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 220px;
+                    width: 220px;
+                    background-color: var(--white);
+                    border-radius: 100%;
+                    a {
+                        color: var(--black);
+                        font-size: 35px;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
 }
