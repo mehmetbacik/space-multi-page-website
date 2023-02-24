@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 
 :root {
-    --theme__font: 'Shantell Sans', cursive;
+    --theme__font: 'Barlow Condensed', sans-serif;
+    --title__font: 'Bellefair', serif;
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
+    --line-color: hsl(231deg 9% 31%);
 }
 
 html {
@@ -26,18 +29,38 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     header {
-        margin-bottom: 300px;
+        margin-bottom: 200px;
         .navbar {
             .navbar-collapse {
+                position: relative;
+                &::before {
+                    content: "";
+                    width: 40%;
+                    height: 2px;
+                    background-color: var(--line-color);
+                    position: absolute;
+                    left: 5%;
+                    z-index: 1;
+                }
                 .navbar-nav {
-                    backdrop-filter: blur(20px);
-                    padding: 20px 200px;
+                    background: rgba(255, 255, 255, 0.04);
+                    backdrop-filter: blur(40.7742px);
+                    padding: 0px 200px;
                     .nav-item {
-                        margin: 0px 15px;
+                        margin: 0px 25px;
                         a {
                             color: var(--white);
                             text-transform: uppercase;
-                            font-size: 16px;
+                            font-size: 18px;
+                            border-bottom: solid 3px transparent;
+                            padding: 30px 0px;
+                            b {
+                                font-size: 20px;
+                                margin-right: 10px;
+                            }
+                            &:hover {
+                                border-bottom: solid 3px var(--white);
+                            }
                         }
                     }
                 }
@@ -53,19 +76,20 @@ html, body {
                 .mse__space__headline {
                     text-transform: uppercase;
                     color: var(--white);
-                    font-size: 25px;
+                    font-size: 40px;
                     margin-bottom: 20px;
                 }
                 .mse__space__title {
+                    font-family: var(--title__font);
                     text-transform: uppercase;
                     color: var(--white);
-                    font-size: 150px;
-                    margin-bottom: 30px;
+                    font-size: 165px;
+                    margin-bottom: 15px;
                 }
                 .mse__space__text {
                     color: var(--white);
-                    font-size: 16px;
-                    line-height: normal;
+                    font-size: 25px;
+                    line-height: 1.5;
                 }
             }
             .mse__explore {
