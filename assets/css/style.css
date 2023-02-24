@@ -21,80 +21,80 @@ html, body {
   padding: 0;
 }
 
-#space__multipage {
+#space__multipage__home {
   font-family: var(--theme__font);
   background-image: url(/assets/img/home/background-home-desktop.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-#space__multipage header {
+#space__multipage__home header {
   margin-bottom: 200px;
 }
-#space__multipage header .navbar .navbar-collapse {
+#space__multipage__home header .navbar .navbar-collapse {
   position: relative;
 }
-#space__multipage header .navbar .navbar-collapse::before {
+#space__multipage__home header .navbar .navbar-collapse::before {
   content: "";
-  width: 40%;
+  width: 45%;
   height: 2px;
   background-color: var(--line-color);
   position: absolute;
-  left: 5%;
+  left: 3%;
   z-index: 1;
 }
-#space__multipage header .navbar .navbar-collapse .navbar-nav {
+#space__multipage__home header .navbar .navbar-collapse .navbar-nav {
   background: rgba(255, 255, 255, 0.04);
   -webkit-backdrop-filter: blur(40.7742px);
           backdrop-filter: blur(40.7742px);
   padding: 0px 200px;
 }
-#space__multipage header .navbar .navbar-collapse .navbar-nav .nav-item {
+#space__multipage__home header .navbar .navbar-collapse .navbar-nav .nav-item {
   margin: 0px 25px;
 }
-#space__multipage header .navbar .navbar-collapse .navbar-nav .nav-item a {
+#space__multipage__home header .navbar .navbar-collapse .navbar-nav .nav-item a {
   color: var(--white);
   text-transform: uppercase;
   font-size: 18px;
   border-bottom: solid 3px transparent;
   padding: 30px 0px;
 }
-#space__multipage header .navbar .navbar-collapse .navbar-nav .nav-item a b {
+#space__multipage__home header .navbar .navbar-collapse .navbar-nav .nav-item a b {
   font-size: 20px;
   margin-right: 10px;
 }
-#space__multipage header .navbar .navbar-collapse .navbar-nav .nav-item a:hover {
+#space__multipage__home header .navbar .navbar-collapse .navbar-nav .nav-item a:hover {
   border-bottom: solid 3px var(--white);
 }
-#space__multipage main #main__space__explore .mse__space {
+#space__multipage__home main #main__space__explore .mse__space {
   display: flex;
   flex-direction: column;
   line-height: 1;
 }
-#space__multipage main #main__space__explore .mse__space .mse__space__headline {
+#space__multipage__home main #main__space__explore .mse__space .mse__space__headline {
   text-transform: uppercase;
   color: var(--white);
   font-size: 40px;
   margin-bottom: 20px;
 }
-#space__multipage main #main__space__explore .mse__space .mse__space__title {
+#space__multipage__home main #main__space__explore .mse__space .mse__space__title {
   font-family: var(--title__font);
   text-transform: uppercase;
   color: var(--white);
   font-size: 165px;
   margin-bottom: 15px;
 }
-#space__multipage main #main__space__explore .mse__space .mse__space__text {
+#space__multipage__home main #main__space__explore .mse__space .mse__space__text {
   color: var(--white);
   font-size: 25px;
   line-height: 1.5;
 }
-#space__multipage main #main__space__explore .mse__explore {
+#space__multipage__home main #main__space__explore .mse__explore {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
-#space__multipage main #main__space__explore .mse__explore .mse__explore__content {
+#space__multipage__home main #main__space__explore .mse__explore .mse__explore__content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +103,7 @@ html, body {
   background-color: var(--white);
   border-radius: 100%;
 }
-#space__multipage main #main__space__explore .mse__explore .mse__explore__content a {
+#space__multipage__home main #main__space__explore .mse__explore .mse__explore__content a {
   color: var(--black);
   font-size: 35px;
   text-transform: uppercase;

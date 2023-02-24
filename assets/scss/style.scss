@@ -22,7 +22,7 @@ html, body {
     padding: 0;
 }
 
-#space__multipage {
+#space__multipage__home {
     font-family: var(--theme__font);
     background-image: url(/assets/img/home/background-home-desktop.jpg);
     background-size: cover;
@@ -35,11 +35,11 @@ html, body {
                 position: relative;
                 &::before {
                     content: "";
-                    width: 40%;
+                    width: 45%;
                     height: 2px;
                     background-color: var(--line-color);
                     position: absolute;
-                    left: 5%;
+                    left: 3%;
                     z-index: 1;
                 }
                 .navbar-nav {
