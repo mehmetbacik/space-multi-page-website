@@ -56,6 +56,9 @@ header {
                             border-bottom: solid 3px var(--white);
                         }
                     }
+                    .active {
+                        border-bottom: solid 3px var(--white);
+                    }
                 }
             }
         }
@@ -120,6 +123,14 @@ header {
 #space__multipage__destination {
     font-family: var(--theme__font);
     background-image: url(/assets/img/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#space__multipage__crew {
+    font-family: var(--theme__font);
+    background-image: url(/assets/img/crew/background-crew-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
