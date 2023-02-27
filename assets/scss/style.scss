@@ -7,6 +7,7 @@
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
     --line-color: hsl(231deg 9% 31%);
+    --headline-number: hsl(222deg 9% 29%);
 }
 
 html {
@@ -23,7 +24,8 @@ html, body {
 }
 
 header {
-    margin-bottom: 200px;
+    padding-top: 50px;
+    margin-bottom: 80px;
     .navbar {
         .navbar-collapse {
             position: relative;
@@ -72,6 +74,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     main {
+        padding-top: 120px;
         #main__space__explore {
             .mse__space {
                 display: flex;
@@ -101,11 +104,6 @@ header {
                 align-items: flex-end;
                 justify-content: flex-end;
                 .mse__explore__content {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    height: 220px;
-                    width: 220px;
                     background-color: var(--white);
                     border-radius: 100%;
                     a {
@@ -113,6 +111,13 @@ header {
                         font-size: 35px;
                         text-transform: uppercase;
                         text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 220px;
+                        width: 220px;
+                        border-radius: 100%;
+                        background-color: var(--white);
                     }
                 }
             }
@@ -126,6 +131,31 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    main {
+        #main__destination__content {
+            .mdc__headline {
+                padding-left: 200px;
+                padding-right: 200px;
+                margin-bottom: 50px;
+                span {
+                    font-size: 25px;
+                    color: var(--white);
+                    text-transform: uppercase;
+                    b {
+                        color: var(--headline-number);
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .mdc__tab {
+                padding-left: 200px;
+                padding-right: 200px;
+                #pills-tab {
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
 }
 
 #space__multipage__crew {

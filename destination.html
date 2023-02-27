@@ -15,7 +15,7 @@
 </head>
 <body id="space__multipage__destination">
     <header>
-        <nav class="navbar navbar-expand-lg px-lg-0 my-lg-5">
+        <nav class="navbar navbar-expand-lg px-lg-0">
             <a class="navbar-brand mx-5" href="#">
               <img src="/assets/img/shared/logo.svg" alt="Logo">
             </a>
@@ -41,22 +41,47 @@
         </nav>
     </header>
     <main>
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Moon</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Mars</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Europa</button>
-            </li>
-          </ul>
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">MOON</div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">MARS</div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">EUROPA</div>
+      <div id="main__destination__content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 mdc__headline">
+              <span>
+                <b>01</b> Pick Your Destination
+              </span>
+            </div>
+            <div class="col-12 mdc__tab">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-moon-tab" data-bs-toggle="pill" data-bs-target="#pills-moon" type="button" role="tab" aria-controls="pills-moon" aria-selected="true">Moon</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-mars-tab" data-bs-toggle="pill" data-bs-target="#pills-mars" type="button" role="tab" aria-controls="pills-mars" aria-selected="false">Mars</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-europa-tab" data-bs-toggle="pill" data-bs-target="#pills-europa" type="button" role="tab" aria-controls="pills-europa" aria-selected="false">Europa</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-titan-tab" data-bs-toggle="pill" data-bs-target="#pills-titan" type="button" role="tab" aria-controls="pills-titan" aria-selected="false">Titan</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-moon" role="tabpanel" aria-labelledby="pills-moon-tab">
+                  <img src="/assets/img/destination/image-moon.webp" alt="Moon">
+                </div>
+                <div class="tab-pane fade" id="pills-mars" role="tabpanel" aria-labelledby="pills-mars-tab">
+                  <img src="/assets/img/destination/image-mars.webp" alt="Mars">
+                </div>
+                <div class="tab-pane fade" id="pills-europa" role="tabpanel" aria-labelledby="pills-europa-tab">
+                  <img src="/assets/img/destination/image-europa.webp" alt="Europa">
+                </div>
+                <div class="tab-pane fade" id="pills-titan" role="tabpanel" aria-labelledby="pills-titan-tab">
+                  <img src="/assets/img/destination/image-titan.webp" alt="Titan">
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
     </main>
     <footer>
     </footer>
