@@ -85,7 +85,8 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .active {
 #space__multipage__home main #main__space__explore .mse__space .mse__space__headline {
   text-transform: uppercase;
   color: var(--white);
-  font-size: 40px;
+  font-size: 35px;
+  letter-spacing: 3px;
   margin-bottom: 20px;
 }
 #space__multipage__home main #main__space__explore .mse__space .mse__space__title {
