@@ -7,6 +7,7 @@
   --black: hsl(0, 0%, 0%);
   --line-color: hsl(231deg 9% 31%);
   --headline-number: hsl(222deg 9% 29%);
+  --nav-bg: rgba(255, 255, 255, 0.04);
 }
 
 html {
@@ -39,10 +40,10 @@ header .navbar .navbar-collapse::before {
   z-index: 1;
 }
 header .navbar .navbar-collapse .navbar-nav {
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--nav-bg);
   -webkit-backdrop-filter: blur(40.7742px);
           backdrop-filter: blur(40.7742px);
-  padding: 0px 200px;
+  padding: 0px 160px;
 }
 header .navbar .navbar-collapse .navbar-nav .nav-item {
   margin: 0px 25px;
@@ -53,6 +54,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item a {
   font-size: 18px;
   border-bottom: solid 3px transparent;
   padding: 30px 0px;
+  letter-spacing: 2px;
 }
 header .navbar .navbar-collapse .navbar-nav .nav-item a b {
   font-size: 20px;
@@ -131,12 +133,13 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .active {
 #space__multipage__destination main #main__destination__content .mdc__headline {
   padding-left: 200px;
   padding-right: 200px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 #space__multipage__destination main #main__destination__content .mdc__headline span {
   font-size: 25px;
   color: var(--white);
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 #space__multipage__destination main #main__destination__content .mdc__headline span b {
   color: var(--headline-number);
@@ -146,8 +149,75 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .active {
   padding-left: 200px;
   padding-right: 200px;
 }
-#space__multipage__destination main #main__destination__content .mdc__tab #pills-tab {
-  justify-content: flex-end;
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tab .nav-item .nav-link {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  font-size: 20px;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 25px;
+  cursor: pointer;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tab .nav-item .nav-link.active {
+  border-bottom: solid 2px var(--white);
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tab .nav-item .nav-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__image {
+  text-align: center;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline {
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  border-bottom: solid 2px var(--line-color);
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline .title {
+  font-family: var(--title__font);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 90px;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline .text {
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .distance {
+  display: flex;
+  flex-direction: column;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .distance .distance__title {
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .distance .meter {
+  color: var(--white);
+  font-size: 40px;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time {
+  display: flex;
+  flex-direction: column;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .time__title {
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .months {
+  color: var(--white);
+  font-size: 40px;
 }
 
 #space__multipage__crew {

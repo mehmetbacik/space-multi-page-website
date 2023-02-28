@@ -8,6 +8,7 @@
     --black: hsl(0, 0%, 0%);
     --line-color: hsl(231deg 9% 31%);
     --headline-number: hsl(222deg 9% 29%);
+    --nav-bg: rgba(255, 255, 255, 0.04);
 }
 
 html {
@@ -39,9 +40,9 @@ header {
                 z-index: 1;
             }
             .navbar-nav {
-                background: rgba(255, 255, 255, 0.04);
+                background: var(--nav-bg);
                 backdrop-filter: blur(40.7742px);
-                padding: 0px 200px;
+                padding: 0px 160px;
                 .nav-item {
                     margin: 0px 25px;
                     a {
@@ -50,6 +51,7 @@ header {
                         font-size: 18px;
                         border-bottom: solid 3px transparent;
                         padding: 30px 0px;
+                        letter-spacing: 2px;
                         b {
                             font-size: 20px;
                             margin-right: 10px;
@@ -136,11 +138,12 @@ header {
             .mdc__headline {
                 padding-left: 200px;
                 padding-right: 200px;
-                margin-bottom: 50px;
+                margin-bottom: 30px;
                 span {
                     font-size: 25px;
                     color: var(--white);
                     text-transform: uppercase;
+                    letter-spacing: 3px;
                     b {
                         color: var(--headline-number);
                         margin-right: 10px;
@@ -151,7 +154,82 @@ header {
                 padding-left: 200px;
                 padding-right: 200px;
                 #pills-tab {
-                    justify-content: flex-end;
+                    .nav-item {
+                        .nav-link {
+                            background-color: transparent;
+                            border: 0;
+                            border-radius: 0;
+                            font-size: 20px;
+                            color: var(--white);
+                            text-transform: uppercase;
+                            letter-spacing: 3px;
+                            padding-left: 0;
+                            padding-right: 0;
+                            margin-right: 25px;
+                            cursor: pointer;
+                            &.active {
+                                border-bottom: solid 2px var(--white);
+                            }
+                            &:focus {
+                                outline: none;
+                                box-shadow: none;
+                            }
+                        }
+                    }
+                }
+                #pills-tabContent {
+                    .tab__image {
+                        text-align: center;
+                    }
+                    .tab__content {
+                        .tab__headline {
+                            padding-bottom: 40px;
+                            margin-bottom: 30px;
+                            border-bottom: solid 2px var(--line-color);
+                            .title {
+                                font-family: var(--title__font);
+                                color: var(--white);
+                                text-transform: uppercase;
+                                font-size: 90px;
+                            }
+                            .text {
+                                color: var(--white);
+                                font-size: 18px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                        .tab__counter {
+                            display: flex;
+                            align-items: center;
+                            gap: 80px;
+                            .distance {
+                                display: flex;
+                                flex-direction: column;
+                                .distance__title {
+                                    color: var(--white);
+                                    text-transform: uppercase;
+                                    letter-spacing: 2px;
+                                }
+                                .meter {
+                                    color: var(--white);
+                                    font-size: 40px;
+                                }
+                            }
+                            .time {
+                                display: flex;
+                                flex-direction: column;
+                                .time__title {
+                                    color: var(--white);
+                                    text-transform: uppercase;
+                                    letter-spacing: 2px;
+                                }
+                                .months {
+                                    color: var(--white);
+                                    font-size: 40px;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
