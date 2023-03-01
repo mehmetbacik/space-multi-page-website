@@ -243,6 +243,59 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    main {
+        #main__crew__content {
+            .mcc__headline {
+                padding-left: 200px;
+                padding-right: 200px;
+                margin-bottom: 30px;
+                span {
+                    font-size: 25px;
+                    color: var(--white);
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    b {
+                        color: var(--headline-number);
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .mcc__swiper {
+                padding-left: 200px;
+                padding-right: 200px;
+                .mySwiper {
+                    .swiper-wrapper {
+                        .swiper-slide {
+                            .pers__job {
+                                display: flex;
+                                flex-direction: column;
+                                font-family: var(--title__font);
+                                color: var(--white);
+                                .job {
+                                    text-transform: uppercase;
+                                    font-size: 25px;
+                                    font-size: 300;
+                                }
+                                .personal {
+                                    text-transform: uppercase;
+                                    font-size: 50px;
+                                    font-size: bold;
+                                }
+                                .job__text {
+                                    
+                                }
+                            }
+                            .pers__image {
+                                img {
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 #space__multipage__technology {

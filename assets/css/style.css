@@ -228,7 +228,41 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .active {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+#space__multipage__crew main #main__crew__content .mcc__headline {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 30px;
+}
+#space__multipage__crew main #main__crew__content .mcc__headline span {
+  font-size: 25px;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#space__multipage__crew main #main__crew__content .mcc__headline span b {
+  color: var(--headline-number);
+  margin-right: 10px;
+}
+#space__multipage__crew main #main__crew__content .mcc__swiper {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--title__font);
+  color: var(--white);
+}
+#space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .job {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-size: 300;
+}
+#space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .personal {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-size: bold;
+}
 #space__multipage__technology {
   font-family: var(--theme__font);
   background-image: url(/assets/img/technology/background-technology-desktop.jpg);
