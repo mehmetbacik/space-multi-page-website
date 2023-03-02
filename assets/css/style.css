@@ -255,18 +255,58 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .active {
 }
 #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .job {
   text-transform: uppercase;
-  font-size: 25px;
-  font-size: 300;
+  font-size: 35px;
+  color: var(--headline-number);
 }
 #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .personal {
   text-transform: uppercase;
-  font-size: 50px;
-  font-size: bold;
+  font-size: 65px;
 }
+#space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .job__text {
+  font-family: var(--theme__font);
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+#space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__image {
+  text-align: center;
+}
+#space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__image img {
+  width: 400px;
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-pagination {
+  display: flex;
+  bottom: 70px;
+}
+#space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-pagination .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: var(--white);
+}
+
 #space__multipage__technology {
   font-family: var(--theme__font);
   background-image: url(/assets/img/technology/background-technology-desktop.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+br.small {
+  display: none;
+}
+
+br.large {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  br.small {
+    display: block;
+  }
+  br.large {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

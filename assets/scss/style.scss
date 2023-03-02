@@ -273,23 +273,36 @@ header {
                                 color: var(--white);
                                 .job {
                                     text-transform: uppercase;
-                                    font-size: 25px;
-                                    font-size: 300;
+                                    font-size: 35px;
+                                    color: var(--headline-number);
                                 }
                                 .personal {
                                     text-transform: uppercase;
-                                    font-size: 50px;
-                                    font-size: bold;
+                                    font-size: 65px;
                                 }
                                 .job__text {
-                                    
+                                    font-family: var(--theme__font);
+                                    letter-spacing: 2px;
+                                    font-size: 20px;
                                 }
                             }
                             .pers__image {
+                                text-align: center;
                                 img {
-
+                                    width: 400px;
+                                    height: 500px;
+                                    object-fit: contain;
                                 }
                             }
+                        }
+                    }
+                    .swiper-pagination {
+                        display: flex;
+                        bottom: 70px;
+                        .swiper-pagination-bullet {
+                            width: 15px;
+                            height: 15px;
+                            background: var(--white);
                         }
                     }
                 }
@@ -304,4 +317,32 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+br.small {
+    display: none;
+}
+br.large {
+    display: block;
+}
+
+@media (min-width: 1200px) {  
+}
+
+@media (max-width: 991px) { 
+}
+
+@media (max-width: 768px) { 
+    br.small {
+        display: block;
+    }
+    br.large {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) { 
+}
+
+@media (max-width: 320px) { 
 }
