@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper-crew', {
     /*navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
