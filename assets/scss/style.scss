@@ -317,6 +317,29 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    main {
+        #main__tech__content {
+            .mtc__headline {
+                padding-left: 200px;
+                padding-right: 200px;
+                margin-bottom: 30px;
+                span {
+                    font-size: 25px;
+                    color: var(--white);
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    b {
+                        color: var(--headline-number);
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .mtc__swiper {
+                padding-left: 200px;
+                padding-right: 200px;
+            }
+        }
+    }
 }
 
 br.small {

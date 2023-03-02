@@ -293,6 +293,25 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .active {
   background-position: center;
   background-repeat: no-repeat;
 }
+#space__multipage__technology main #main__tech__content .mtc__headline {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 30px;
+}
+#space__multipage__technology main #main__tech__content .mtc__headline span {
+  font-size: 25px;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#space__multipage__technology main #main__tech__content .mtc__headline span b {
+  color: var(--headline-number);
+  margin-right: 10px;
+}
+#space__multipage__technology main #main__tech__content .mtc__swiper {
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
 br.small {
   display: none;
