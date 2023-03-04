@@ -337,6 +337,29 @@ header {
             .mtc__swiper {
                 padding-left: 200px;
                 padding-right: 200px;
+                .swiper-slide {
+                    .mtc__content {
+                        display: flex;
+                        flex-direction: column;
+                        color: var(--white);
+                        .title {
+                           text-transform: uppercase;
+                           font-size: 35px;
+                        }
+                        .headline {
+                            text-transform: uppercase;
+                            font-size: 65px;
+                            font-family: var(--title__font);
+                        }
+                        .text {
+                            letter-spacing: 2px;
+                            font-size: 20px;
+                        }
+                    }
+                    .mtc__image {
+
+                    }
+                }
                 .swiper-pagination-bullet {
                     width: 20px;
                     height: 20px;

@@ -312,6 +312,24 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .active {
   padding-left: 200px;
   padding-right: 200px;
 }
+#space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+}
+#space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content .title {
+  text-transform: uppercase;
+  font-size: 35px;
+}
+#space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content .headline {
+  text-transform: uppercase;
+  font-size: 65px;
+  font-family: var(--title__font);
+}
+#space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content .text {
+  letter-spacing: 2px;
+  font-size: 20px;
+}
 #space__multipage__technology main #main__tech__content .mtc__swiper .swiper-pagination-bullet {
   width: 20px;
   height: 20px;
