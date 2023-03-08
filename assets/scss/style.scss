@@ -394,9 +394,105 @@ br.large {
 }
 
 @media (min-width: 1200px) {  
+
+}
+
+@media only screen and (min-width: 992px)and (max-width:1200px) {
+    br.large {
+        display: none;
+    }
 }
 
 @media (max-width: 991px) { 
+
+    header {
+        padding-top: 20px;
+        margin-bottom: 40px;
+        .navbar {
+            .navbar-collapse {
+                position: relative;
+                &::before {
+                    content: "";
+                    width: 45%;
+                    height: 2px;
+                    background-color: var(--line-color);
+                    position: absolute;
+                    left: 3%;
+                    z-index: 1;
+                }
+                .navbar-nav {
+                    background: var(--nav-bg);
+                    backdrop-filter: blur(40.7742px);
+                    padding: 0px 160px;
+                    .nav-item {
+                        margin: 0px 25px;
+                        a {
+                            color: var(--white);
+                            text-transform: uppercase;
+                            font-size: 18px;
+                            border-bottom: solid 3px transparent;
+                            padding: 30px 0px;
+                            letter-spacing: 2px;
+                            b {
+                                font-size: 20px;
+                                margin-right: 10px;
+                            }
+                            &:hover {
+                                border-bottom: solid 3px var(--white);
+                            }
+                        }
+                        .active {
+                            border-bottom: solid 3px var(--white);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #space__multipage__home {
+        background-image: url(/assets/img/home/background-home-tablet.jpg);
+        main {
+            padding-top: 10px;
+            #main__space__explore {
+                .mse__space {
+                    align-items: center;
+                    margin-bottom: 80px;
+                    .mse__space__headline {
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                    .mse__space__title {
+                        font-size: 130px;
+                    }
+                    .mse__space__text {
+                        font-size: 18px;
+                        padding: 0 110px;
+                        text-align: center;
+                    }
+                }
+                .mse__explore {
+                    justify-content: center;
+                    .mse__explore__content {
+                        background-color: var(--white);
+                        border-radius: 100%;
+                        a {
+                            font-size: 30px;
+                            height: 190px;
+                            width: 190px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    br.large {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) { 
@@ -409,7 +505,9 @@ br.large {
 }
 
 @media (max-width: 375px) { 
+
 }
 
 @media (max-width: 320px) { 
+
 }

@@ -360,6 +360,93 @@ br.large {
   display: block;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  br.large {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  header {
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+  header .navbar .navbar-collapse {
+    position: relative;
+  }
+  header .navbar .navbar-collapse::before {
+    content: "";
+    width: 45%;
+    height: 2px;
+    background-color: var(--line-color);
+    position: absolute;
+    left: 3%;
+    z-index: 1;
+  }
+  header .navbar .navbar-collapse .navbar-nav {
+    background: var(--nav-bg);
+    -webkit-backdrop-filter: blur(40.7742px);
+            backdrop-filter: blur(40.7742px);
+    padding: 0px 160px;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item {
+    margin: 0px 25px;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item a {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: solid 3px transparent;
+    padding: 30px 0px;
+    letter-spacing: 2px;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item a b {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item a:hover {
+    border-bottom: solid 3px var(--white);
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item .active {
+    border-bottom: solid 3px var(--white);
+  }
+  #space__multipage__home {
+    background-image: url(/assets/img/home/background-home-tablet.jpg);
+  }
+  #space__multipage__home main {
+    padding-top: 10px;
+  }
+  #space__multipage__home main #main__space__explore .mse__space {
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  #space__multipage__home main #main__space__explore .mse__space .mse__space__headline {
+    font-size: 20px;
+    text-align: center;
+  }
+  #space__multipage__home main #main__space__explore .mse__space .mse__space__title {
+    font-size: 130px;
+  }
+  #space__multipage__home main #main__space__explore .mse__space .mse__space__text {
+    font-size: 18px;
+    padding: 0 110px;
+    text-align: center;
+  }
+  #space__multipage__home main #main__space__explore .mse__explore {
+    justify-content: center;
+  }
+  #space__multipage__home main #main__space__explore .mse__explore .mse__explore__content {
+    background-color: var(--white);
+    border-radius: 100%;
+  }
+  #space__multipage__home main #main__space__explore .mse__explore .mse__explore__content a {
+    font-size: 30px;
+    height: 190px;
+    width: 190px;
+  }
+  br.large {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   br.small {
     display: block;
