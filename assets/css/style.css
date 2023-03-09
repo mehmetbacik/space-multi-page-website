@@ -467,6 +467,8 @@ br.large {
   #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__image img {
     height: 250px;
     width: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline {
     text-align: center;
@@ -492,6 +494,48 @@ br.large {
   }
   #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .months {
     font-size: 30px;
+  }
+  #space__multipage__crew {
+    background-image: url(/assets/img/crew/background-crew-tablet.jpg);
+  }
+  #space__multipage__crew main #main__crew__content .mcc__headline {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 15px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__headline span {
+    font-size: 20px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .job {
+    text-align: center;
+    font-size: 25px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .personal {
+    text-align: center;
+    font-size: 40px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .job__text {
+    text-align: center;
+    font-size: 14px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__image {
+    text-align: center;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__image img {
+    width: 300px;
+    height: 400px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-pagination {
+    bottom: 0px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-pagination .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: var(--white);
   }
   br.large {
     display: none;

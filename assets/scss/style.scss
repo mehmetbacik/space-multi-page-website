@@ -515,6 +515,7 @@ br.large {
                             img {
                                 height: 250px;
                                 width: 250px;
+                                object-fit: cover;
                             }
                         }
                         .tab__content {
@@ -556,6 +557,60 @@ br.large {
         }
     }
 
+    #space__multipage__crew {
+        background-image: url(/assets/img/crew/background-crew-tablet.jpg);
+        main {
+            #main__crew__content {
+                .mcc__headline {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    margin-bottom: 15px;
+                    span {
+                        font-size: 20px;
+                    }
+                }
+                .mcc__swiper {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    .mySwiper {
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                .pers__job {
+                                    .job {
+                                        text-align: center;
+                                        font-size: 25px;
+                                    }
+                                    .personal {
+                                        text-align: center;
+                                        font-size: 40px;
+                                    }
+                                    .job__text {
+                                        text-align: center;
+                                        font-size: 14px;
+                                    }
+                                }
+                                .pers__image {
+                                    text-align: center;
+                                    img {
+                                        width: 300px;
+                                        height: 400px;
+                                    }
+                                }
+                            }
+                        }
+                        .swiper-pagination {
+                            bottom: 0px;
+                            .swiper-pagination-bullet {
+                                width: 15px;
+                                height: 15px;
+                                background: var(--white);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 
 
