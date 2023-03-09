@@ -600,11 +600,6 @@ br.large {
                         }
                         .swiper-pagination {
                             bottom: 0px;
-                            .swiper-pagination-bullet {
-                                width: 15px;
-                                height: 15px;
-                                background: var(--white);
-                            }
                         }
                     }
                 }
@@ -612,7 +607,64 @@ br.large {
         }
     }
 
-
+    #space__multipage__technology {
+        background-image: url(/assets/img/technology/background-technology-tablet.jpg);
+        main {
+            #main__tech__content {
+                .mtc__headline {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    margin-bottom: 15px;
+                    span {
+                        font-size: 20px;
+                    }
+                }
+                .mtc__swiper {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    .swiper-slide {
+                        .mtc__content {
+                            display: flex;
+                            flex-direction: column;
+                            color: var(--white);
+                            .title {
+                               text-transform: uppercase;
+                               font-size: 35px;
+                            }
+                            .headline {
+                                text-transform: uppercase;
+                                font-size: 65px;
+                                font-family: var(--title__font);
+                            }
+                            .text {
+                                letter-spacing: 2px;
+                                font-size: 20px;
+                                padding-right: 240px;
+                            }
+                        }
+                        .mtc__image {
+    
+                        }
+                    }
+                    .swiper-pagination-bullet {
+                        width: 60px;
+                        height: 60px;
+                        text-align: center;
+                        line-height: 2;
+                        font-size: 28px;
+                        color: var(--white);
+                        opacity: 1;
+                        background: transparent;
+                        border: solid 1px var(--headline-number);
+                    }
+                    .swiper-pagination-bullet-active {
+                        color: var(--black);
+                        background: var(--white);
+                    }
+                }
+            }
+        }
+    }
 
 
     br.large {
