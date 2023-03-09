@@ -443,6 +443,56 @@ br.large {
     height: 190px;
     width: 190px;
   }
+  #space__multipage__destination {
+    background-image: url(/assets/img/destination/background-destination-tablet.jpg);
+  }
+  #space__multipage__destination main #main__destination__content .mdc__headline {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 15px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__headline span {
+    font-size: 20px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tab .nav-item .nav-link {
+    font-size: 18px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__image {
+    text-align: center;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__image img {
+    height: 250px;
+    width: 250px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline .title {
+    text-align: center;
+    font-size: 50px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline .text {
+    text-align: center;
+    font-size: 14px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .distance .distance__title {
+    font-size: 12px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .distance .meter {
+    font-size: 30px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .time__title {
+    font-size: 12px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .months {
+    font-size: 30px;
+  }
   br.large {
     display: none;
   }

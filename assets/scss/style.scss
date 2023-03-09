@@ -487,6 +487,76 @@ br.large {
         }
     }
 
+    #space__multipage__destination {
+        background-image: url(/assets/img/destination/background-destination-tablet.jpg);
+        main {
+            #main__destination__content {
+                .mdc__headline {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    margin-bottom: 15px;
+                    span {
+                        font-size: 20px;
+                    }
+                }
+                .mdc__tab {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                    #pills-tab {
+                        .nav-item {
+                            .nav-link {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    #pills-tabContent {
+                        .tab__image {
+                            text-align: center;
+                            img {
+                                height: 250px;
+                                width: 250px;
+                            }
+                        }
+                        .tab__content {
+                            .tab__headline {
+                                text-align: center;
+                                margin-top: 20px;
+                                padding-bottom: 20px;
+                                .title {
+                                    text-align: center;
+                                    font-size: 50px;
+                                }
+                                .text {
+                                    text-align: center;
+                                    font-size: 14px;
+                                }
+                            }
+                            .tab__counter {
+                                .distance {
+                                    .distance__title {
+                                        font-size: 12px;
+                                    }
+                                    .meter {
+                                        font-size: 30px;
+                                    }
+                                }
+                                .time {
+                                    .time__title {
+                                        font-size: 12px;
+                                    }
+                                    .months {
+                                        font-size: 30px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
 
 
 
