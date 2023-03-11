@@ -606,6 +606,45 @@ br.large {
     height: 170px;
     width: 170px;
   }
+  #space__multipage__destination {
+    background-image: url(/assets/img/destination/background-destination-mobile.jpg);
+  }
+  #space__multipage__destination main #main__destination__content .mdc__headline {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__headline span {
+    font-size: 18px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tab .nav-item .nav-link {
+    font-size: 16px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__image img {
+    height: 200px;
+    width: 200px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline .title {
+    font-size: 40px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline .text {
+    font-size: 14px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .distance .distance__title {
+    font-size: 12px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .distance .meter {
+    font-size: 25px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .time__title {
+    font-size: 12px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .months {
+    font-size: 25px;
+  }
   br.small {
     display: block;
   }

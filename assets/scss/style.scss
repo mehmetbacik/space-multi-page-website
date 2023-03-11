@@ -404,7 +404,6 @@ br.large {
 }
 
 @media (max-width: 991px) { 
-
     header {
         padding-top: 20px;
         margin-bottom: 40px;
@@ -486,7 +485,6 @@ br.large {
             }
         }
     }
-
     #space__multipage__destination {
         background-image: url(/assets/img/destination/background-destination-tablet.jpg);
         main {
@@ -556,7 +554,6 @@ br.large {
             }
         }
     }
-
     #space__multipage__crew {
         background-image: url(/assets/img/crew/background-crew-tablet.jpg);
         main {
@@ -606,7 +603,6 @@ br.large {
             }
         }
     }
-
     #space__multipage__technology {
         background-image: url(/assets/img/technology/background-technology-tablet.jpg);
         main {
@@ -662,7 +658,6 @@ br.large {
             }
         }
     }
-
     br.large {
         display: none;
     }
@@ -699,7 +694,67 @@ br.large {
         }
     }
 
-
+    #space__multipage__destination {
+        background-image: url(/assets/img/destination/background-destination-mobile.jpg);
+        main {
+            #main__destination__content {
+                .mdc__headline {
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    span {
+                        font-size: 18px;
+                    }
+                }
+                .mdc__tab {
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    #pills-tab {
+                        .nav-item {
+                            .nav-link {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    #pills-tabContent {
+                        .tab__image {
+                            img {
+                                height: 200px;
+                                width: 200px;
+                            }
+                        }
+                        .tab__content {
+                            .tab__headline {
+                                .title {
+                                    font-size: 40px;
+                                }
+                                .text {
+                                    font-size: 14px;
+                                }
+                            }
+                            .tab__counter {
+                                .distance {
+                                    .distance__title {
+                                        font-size: 12px;
+                                    }
+                                    .meter {
+                                        font-size: 25px;
+                                    }
+                                }
+                                .time {
+                                    .time__title {
+                                        font-size: 12px;
+                                    }
+                                    .months {
+                                        font-size: 25px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
     br.small {
         display: block;
