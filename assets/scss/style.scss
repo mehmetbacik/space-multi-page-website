@@ -693,7 +693,6 @@ br.large {
             }
         }
     }
-
     #space__multipage__destination {
         background-image: url(/assets/img/destination/background-destination-mobile.jpg);
         main {
@@ -756,6 +755,47 @@ br.large {
         }
     }
 
+    #space__multipage__crew {
+        background-image: url(/assets/img/crew/background-crew-mobile.jpg);
+        main {
+            #main__crew__content {
+                .mcc__headline {
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    span {
+                        font-size: 18px;
+                    }
+                }
+                .mcc__swiper {
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    .mySwiper {
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                .pers__job {
+                                    .job {
+                                        font-size: 18px;
+                                    }
+                                    .personal {
+                                        font-size: 25px;
+                                    }
+                                    .job__text {
+                                        font-size: 14px;
+                                    }
+                                }
+                                .pers__image {
+                                    img {
+                                        width: 200px;
+                                        height: 300px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     br.small {
         display: block;
     }

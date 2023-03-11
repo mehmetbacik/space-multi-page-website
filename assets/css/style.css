@@ -645,6 +645,33 @@ br.large {
   #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .months {
     font-size: 25px;
   }
+  #space__multipage__crew {
+    background-image: url(/assets/img/crew/background-crew-mobile.jpg);
+  }
+  #space__multipage__crew main #main__crew__content .mcc__headline {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__headline span {
+    font-size: 18px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .job {
+    font-size: 18px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .personal {
+    font-size: 25px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .job__text {
+    font-size: 14px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__image img {
+    width: 200px;
+    height: 300px;
+  }
   br.small {
     display: block;
   }
