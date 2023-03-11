@@ -374,13 +374,7 @@ br.large {
     position: relative;
   }
   header .navbar .navbar-collapse::before {
-    content: "";
-    width: 45%;
-    height: 2px;
-    background-color: var(--line-color);
-    position: absolute;
-    left: 3%;
-    z-index: 1;
+    display: none;
   }
   header .navbar .navbar-collapse .navbar-nav {
     background: var(--nav-bg);

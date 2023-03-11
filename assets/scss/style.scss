@@ -411,13 +411,7 @@ br.large {
             .navbar-collapse {
                 position: relative;
                 &::before {
-                    content: "";
-                    width: 45%;
-                    height: 2px;
-                    background-color: var(--line-color);
-                    position: absolute;
-                    left: 3%;
-                    z-index: 1;
+                    display: none;
                 }
                 .navbar-nav {
                     background: var(--nav-bg);
