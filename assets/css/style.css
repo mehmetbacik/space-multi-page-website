@@ -705,4 +705,104 @@ br.large {
   br.large {
     display: none;
   }
+}
+@media (max-width: 375px) {
+  #space__multipage__home main #main__space__explore .mse__space .mse__space__headline {
+    font-size: 14px;
+  }
+  #space__multipage__home main #main__space__explore .mse__space .mse__space__title {
+    font-size: 80px;
+  }
+  #space__multipage__home main #main__space__explore .mse__space .mse__space__text {
+    font-size: 16px;
+  }
+  #space__multipage__home main #main__space__explore .mse__explore .mse__explore__content a {
+    font-size: 25px;
+    height: 150px;
+    width: 150px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__headline {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__headline span {
+    font-size: 16px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tab .nav-item .nav-link {
+    font-size: 14px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__image img {
+    height: 200px;
+    width: 200px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline .title {
+    font-size: 40px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__headline .text {
+    font-size: 14px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .distance .distance__title {
+    font-size: 10px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .distance .meter {
+    font-size: 20px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .time__title {
+    font-size: 10px;
+  }
+  #space__multipage__destination main #main__destination__content .mdc__tab #pills-tabContent .tab__content .tab__counter .time .months {
+    font-size: 20px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__headline {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__headline span {
+    font-size: 18px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .job {
+    font-size: 16px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .personal {
+    font-size: 20px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__job .job__text {
+    font-size: 12px;
+  }
+  #space__multipage__crew main #main__crew__content .mcc__swiper .mySwiper .swiper-wrapper .swiper-slide .pers__image img {
+    width: 200px;
+    height: 300px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__headline {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__headline span {
+    font-size: 18px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content .title {
+    font-size: 18px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content .headline {
+    font-size: 25px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content .text {
+    font-size: 12px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__image img {
+    height: 200px;
+    width: 200px;
+  }
 }/*# sourceMappingURL=style.css.map */

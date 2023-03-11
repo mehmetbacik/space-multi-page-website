@@ -841,9 +841,166 @@ br.large {
 }
 
 @media (max-width: 375px) { 
-
-}
-
-@media (max-width: 320px) { 
-
+    #space__multipage__home {
+        main {
+            #main__space__explore {
+                .mse__space {
+                    .mse__space__headline {
+                        font-size: 14px;
+                    }
+                    .mse__space__title {
+                        font-size: 80px;
+                    }
+                    .mse__space__text {
+                        font-size: 16px;
+                    }
+                }
+                .mse__explore {
+                    .mse__explore__content {
+                        a {
+                            font-size: 25px;
+                            height: 150px;
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #space__multipage__destination {
+        main {
+            #main__destination__content {
+                .mdc__headline {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    span {
+                        font-size: 16px;
+                    }
+                }
+                .mdc__tab {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    #pills-tab {
+                        .nav-item {
+                            .nav-link {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    #pills-tabContent {
+                        .tab__image {
+                            img {
+                                height: 200px;
+                                width: 200px;
+                            }
+                        }
+                        .tab__content {
+                            .tab__headline {
+                                .title {
+                                    font-size: 40px;
+                                }
+                                .text {
+                                    font-size: 14px;
+                                }
+                            }
+                            .tab__counter {
+                                .distance {
+                                    .distance__title {
+                                        font-size: 10px;
+                                    }
+                                    .meter {
+                                        font-size: 20px;
+                                    }
+                                }
+                                .time {
+                                    .time__title {
+                                        font-size: 10px;
+                                    }
+                                    .months {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #space__multipage__crew {
+        main {
+            #main__crew__content {
+                .mcc__headline {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    span {
+                        font-size: 18px;
+                    }
+                }
+                .mcc__swiper {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    .mySwiper {
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                .pers__job {
+                                    .job {
+                                        font-size: 16px;
+                                    }
+                                    .personal {
+                                        font-size: 20px;
+                                    }
+                                    .job__text {
+                                        font-size: 12px;
+                                    }
+                                }
+                                .pers__image {
+                                    img {
+                                        width: 200px;
+                                        height: 300px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #space__multipage__technology {
+        main {
+            #main__tech__content {
+                .mtc__headline {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    span {
+                        font-size: 18px;
+                    }
+                }
+                .mtc__swiper {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    .swiper-slide {
+                        .mtc__content {
+                            .title {
+                                font-size: 18px;
+                            }
+                            .headline {
+                                font-size: 25px;
+                            }
+                            .text {
+                                font-size: 12px;
+                            }
+                        }
+                        .mtc__image {
+                            img {
+                                height: 200px;
+                                width: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
