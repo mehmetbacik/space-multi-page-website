@@ -754,7 +754,6 @@ br.large {
             }
         }
     }
-
     #space__multipage__crew {
         background-image: url(/assets/img/crew/background-crew-mobile.jpg);
         main {
@@ -789,6 +788,43 @@ br.large {
                                         height: 300px;
                                     }
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #space__multipage__technology {
+        background-image: url(/assets/img/technology/background-technology-mobile.jpg);
+        main {
+            #main__tech__content {
+                .mtc__headline {
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    span {
+                        font-size: 18px;
+                    }
+                }
+                .mtc__swiper {
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    .swiper-slide {
+                        .mtc__content {
+                            .title {
+                                font-size: 18px;
+                            }
+                            .headline {
+                                font-size: 25px;
+                            }
+                            .text {
+                                font-size: 14px;
+                            }
+                        }
+                        .mtc__image {
+                            img {
+                                height: 200px;
+                                width: 200px;
                             }
                         }
                     }

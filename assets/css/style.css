@@ -672,6 +672,33 @@ br.large {
     width: 200px;
     height: 300px;
   }
+  #space__multipage__technology {
+    background-image: url(/assets/img/technology/background-technology-mobile.jpg);
+  }
+  #space__multipage__technology main #main__tech__content .mtc__headline {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__headline span {
+    font-size: 18px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content .title {
+    font-size: 18px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content .headline {
+    font-size: 25px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__content .text {
+    font-size: 14px;
+  }
+  #space__multipage__technology main #main__tech__content .mtc__swiper .swiper-slide .mtc__image img {
+    height: 200px;
+    width: 200px;
+  }
   br.small {
     display: block;
   }
