@@ -663,13 +663,44 @@ br.large {
         }
     }
 
-
     br.large {
         display: none;
     }
 }
 
 @media (max-width: 768px) { 
+    #space__multipage__home {
+        background-image: url(/assets/img/home/background-home-mobile.jpg);
+        main {
+            #main__space__explore {
+                .mse__space {
+                    .mse__space__headline {
+                        font-size: 18px;
+                    }
+                    .mse__space__title {
+                        font-size: 110px;
+                    }
+                    .mse__space__text {
+                        font-size: 16px;
+                        padding: 0 30px;
+                    }
+                }
+                .mse__explore {
+                    justify-content: center;
+                    .mse__explore__content {
+                        a {
+                            font-size: 28px;
+                            height: 170px;
+                            width: 170px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
     br.small {
         display: block;
     }
