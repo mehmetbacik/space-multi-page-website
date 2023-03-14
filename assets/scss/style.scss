@@ -18,11 +18,9 @@ html {
         height: 100%;
     }
 }
-
 body {
     min-height: 100vh;
 }
-
 html, body {
     margin: 0;
     padding: 0;
@@ -32,21 +30,22 @@ header {
     padding-top: 50px;
     margin-bottom: 80px;
     .navbar {
+        .nav-line {
+            background: var(--line-color);
+            mix-blend-mode: normal;
+            width: 45%;
+            height: 2px;
+            position: relative;
+            left: 40px;
+            z-index: 100;
+        }
         .navbar-collapse {
             position: relative;
-            &::before {
-                content: "";
-                width: 45%;
-                height: 2px;
-                background-color: var(--line-color);
-                position: absolute;
-                left: 3%;
-                z-index: 1;
-            }
             .navbar-nav {
                 background: var(--nav-bg);
                 backdrop-filter: blur(40.7742px);
                 padding: 0px 160px;
+                gap: 10px;
                 .nav-item {
                     margin: 0px 25px;
                     a {
@@ -56,6 +55,9 @@ header {
                         border-bottom: solid 3px transparent;
                         padding: 30px 0px;
                         letter-spacing: 2px;
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: center;
                         b {
                             font-size: 20px;
                             margin-right: 10px;
@@ -72,7 +74,6 @@ header {
         }
     }
 }
-
 #space__multipage__home {
     font-family: var(--theme__font);
     background-image: url(/assets/img/home/background-home-desktop.jpg);
@@ -131,7 +132,6 @@ header {
         }
     }
 }
-
 #space__multipage__destination {
     font-family: var(--theme__font);
     background-image: url(/assets/img/destination/background-destination-desktop.jpg);
@@ -240,7 +240,6 @@ header {
         }
     }
 }
-
 #space__multipage__crew {
     font-family: var(--theme__font);
     background-image: url(/assets/img/crew/background-crew-desktop.jpg);
@@ -315,7 +314,6 @@ header {
         }
     }
 }
-
 #space__multipage__technology {
     font-family: var(--theme__font);
     background-image: url(/assets/img/technology/background-technology-desktop.jpg);
@@ -398,6 +396,19 @@ br.large {
 }
 
 @media only screen and (min-width: 992px)and (max-width:1200px) {
+    header {
+        .navbar {
+            .nav-line {
+                left: 30px;
+            }
+            .navbar-collapse {
+                .navbar-nav {
+                    padding: 0px 30px;
+                }
+            }
+        }
+    }
+
     br.large {
         display: none;
     }
@@ -408,6 +419,9 @@ br.large {
         padding-top: 20px;
         margin-bottom: 40px;
         .navbar {
+            .nav-line {
+                display: none;
+            }
             .navbar-collapse {
                 position: relative;
                 &::before {
@@ -416,7 +430,7 @@ br.large {
                 .navbar-nav {
                     background: var(--nav-bg);
                     backdrop-filter: blur(40.7742px);
-                    padding: 0px 160px;
+                    padding: 0px 0px;
                     .nav-item {
                         margin: 0px 25px;
                         a {
@@ -442,7 +456,6 @@ br.large {
             }
         }
     }
-
     #space__multipage__home {
         background-image: url(/assets/img/home/background-home-tablet.jpg);
         main {
@@ -658,6 +671,15 @@ br.large {
 }
 
 @media (max-width: 768px) { 
+    header {
+        .navbar {
+            .navbar-collapse {
+                .navbar-nav {
+                    padding: 0px 0px;
+                }
+            }
+        }
+    }
     #space__multipage__home {
         background-image: url(/assets/img/home/background-home-mobile.jpg);
         main {

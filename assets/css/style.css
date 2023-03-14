@@ -31,23 +31,24 @@ header {
   padding-top: 50px;
   margin-bottom: 80px;
 }
-header .navbar .navbar-collapse {
-  position: relative;
-}
-header .navbar .navbar-collapse::before {
-  content: "";
+header .navbar .nav-line {
+  background: var(--line-color);
+  mix-blend-mode: normal;
   width: 45%;
   height: 2px;
-  background-color: var(--line-color);
-  position: absolute;
-  left: 3%;
-  z-index: 1;
+  position: relative;
+  left: 40px;
+  z-index: 100;
+}
+header .navbar .navbar-collapse {
+  position: relative;
 }
 header .navbar .navbar-collapse .navbar-nav {
   background: var(--nav-bg);
   -webkit-backdrop-filter: blur(40.7742px);
           backdrop-filter: blur(40.7742px);
   padding: 0px 160px;
+  gap: 10px;
 }
 header .navbar .navbar-collapse .navbar-nav .nav-item {
   margin: 0px 25px;
@@ -59,6 +60,9 @@ header .navbar .navbar-collapse .navbar-nav .nav-item a {
   border-bottom: solid 3px transparent;
   padding: 30px 0px;
   letter-spacing: 2px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 header .navbar .navbar-collapse .navbar-nav .nav-item a b {
   font-size: 20px;
@@ -361,6 +365,12 @@ br.large {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  header .navbar .nav-line {
+    left: 30px;
+  }
+  header .navbar .navbar-collapse .navbar-nav {
+    padding: 0px 30px;
+  }
   br.large {
     display: none;
   }
@@ -369,6 +379,9 @@ br.large {
   header {
     padding-top: 20px;
     margin-bottom: 40px;
+  }
+  header .navbar .nav-line {
+    display: none;
   }
   header .navbar .navbar-collapse {
     position: relative;
@@ -380,7 +393,7 @@ br.large {
     background: var(--nav-bg);
     -webkit-backdrop-filter: blur(40.7742px);
             backdrop-filter: blur(40.7742px);
-    padding: 0px 160px;
+    padding: 0px 0px;
   }
   header .navbar .navbar-collapse .navbar-nav .nav-item {
     margin: 0px 25px;
@@ -579,6 +592,9 @@ br.large {
   }
 }
 @media (max-width: 768px) {
+  header .navbar .navbar-collapse .navbar-nav {
+    padding: 0px 0px;
+  }
   #space__multipage__home {
     background-image: url(/assets/img/home/background-home-mobile.jpg);
   }
