@@ -292,8 +292,10 @@ header {
                             .pers__image {
                                 text-align: center;
                                 img {
-                                    width: 400px;
-                                    height: 500px;
+                                    width: 100%;
+                                    height: 100%;
+                                    max-width: 400px;
+                                    max-height: 500px;
                                     object-fit: contain;
                                 }
                             }
@@ -361,7 +363,11 @@ header {
                         }
                     }
                     .mtc__image {
-
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
                     }
                 }
                 .swiper-pagination-bullet {
@@ -383,14 +389,12 @@ header {
         }
     }
 }
-
 br.small {
     display: none;
 }
 br.large {
     display: block;
 }
-
 @media (min-width: 1200px) {  
 
 }
@@ -408,7 +412,53 @@ br.large {
             }
         }
     }
-
+    #space__multipage__crew {
+        main {
+            #main__crew__content {
+                .mcc__swiper {
+                    .mySwiper {
+                        .swiper-wrapper {
+                            .swiper-slide {
+                                .pers__job {
+                                    .job {
+                                        font-size: 25px;
+                                    }
+                                    .personal {
+                                        font-size: 35px;
+                                    }
+                                    .job__text {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #space__multipage__technology {
+        main {
+            #main__tech__content {
+                .mtc__swiper {
+                    .swiper-slide {
+                        .mtc__content {
+                            .title {
+                               font-size: 25px;
+                            }
+                            .headline {
+                                font-size: 35px;
+                            }
+                            .text {
+                                font-size: 16px;
+                                padding-right: 90px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     br.large {
         display: none;
     }
