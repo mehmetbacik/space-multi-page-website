@@ -29,6 +29,9 @@ To clone the project, run the following commands:
 
 ```
 git clone https://github.com/mehmetbacik/space-multi-page-website.git
+```
+
+```
 cd space-multi-page-website
 ```
 
