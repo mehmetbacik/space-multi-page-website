@@ -1,4 +1,4 @@
-# Space Themed Multi-Page Website
+# Space Multi-Page Website
 
 This repository contains the source code for a space-themed multi-page website design. The project is built using HTML, CSS, SCSS, and JavaScript. Additionally, the design incorporates the Bootstrap CSS library and the Swiper library for creating a slide show.
 
